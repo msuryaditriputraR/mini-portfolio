@@ -383,7 +383,20 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer__copy {
+  display: block;
+  text-align: center;
+  margin: 2.5rem 0 2rem;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
 
+.footer__copy-link {
+  color: var(--text-color-light);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: .125rem;
+}
 
 /*=============== SCROLL BAR ===============*/
 
