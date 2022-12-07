@@ -33,6 +33,10 @@
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
+
+  /* FONT WEIGHT */
+  --font-medium: 500;
+  --font-semi-bold: 600;
 }
 
 @media screen and (min-width: 968px) {
@@ -57,15 +61,15 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .3s;
   /* For animation dark mode */
+  transition: .3s;
 }
 
 h1,
 h2,
 h3 {
   color: var(--title-color);
-  font-weight: 600;
+  font-weight: var(--font-semi-bold);
 }
 
 ul {
@@ -190,7 +194,7 @@ body.dark-theme {
 
 .profile__profession {
   font-size: var(--smaller-font-size);
-  font-weight: 500;
+  font-weight: var(--font-medium);
   color: var(--text-color);
   margin-bottom: 1rem;
 }
@@ -228,7 +232,7 @@ body.dark-theme {
 
 .profile__info-description {
   font-size: var(--small-font-size);
-  font-weight: 500;
+  font-weight: var(--font-medium);
 }
 
 .profile__buttons,
@@ -300,7 +304,7 @@ body.dark-theme {
   color: var(--title-color);
   font-size: var(--small-font-size);
   font-family: var(--body-font);
-  font-weight: 500;
+  font-weight: var(--font-medium);
   border-radius: .75rem;
   cursor: pointer;
   background-color: transparent;
@@ -396,7 +400,7 @@ body.dark-theme {
 
 .skills__name {
   font-size: var(--normal-font-size);
-  font-weight: 500;
+  font-weight: var(--font-medium);
   line-height: 18px;
 }
 
